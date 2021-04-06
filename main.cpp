@@ -100,7 +100,7 @@ public:
         else if (c == 'C') {
             return Circle::make(params);
         }
-        else {return nullptr;}
+        else return nullptr;
     }
 };
 
